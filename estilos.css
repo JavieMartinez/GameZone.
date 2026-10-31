@@ -112,6 +112,51 @@ section h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 22px;
 }
+#descargas {
+    background-color: #252550;
+    border: 2px solid #a970ff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+#descargas h2 {
+    color: #42caff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#descargas p {
+    color: #cccccc;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+}
+
+#descargas h3 {
+    color: #a970ff;
+    font-family: 'Oxanium', sans-serif;
+    font-size: 22px;
+}
+
+#descargas a {
+    display: inline-block;
+    background-color: #a970ff;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#descargas a:hover {
+    background-color: #42caff;
+    transform: scale(1.05);
+}
 
 
 @media (max-width: 600px) {
@@ -148,3 +193,18 @@ section h2 {
         font-size: 16px;
     }
 }
+#descargas {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #descargas h2 {
+        font-size: 15px;
+    }
+
+    #descargas a {
+        display: block;
+        margin: 12px auto;
+        width: 85%;
+        box-sizing: border-box;
+  }
