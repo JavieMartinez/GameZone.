@@ -1,0 +1,2 @@
+# GameZone.
+BLOG DE VIDEOJUEGOS
